@@ -58,6 +58,6 @@ def generate(G, im_class, n_images=1, filename=None, n_columns=2):
 	plt.show()
 	
 if __name__ == "__main__":
-	G = load(os.path.join("..", "BigGAN_ch96_bs256x8_138k"))
+	G = load(os.path.join("..", "BigGAN_model"))
 	generate(G, 933, n_images=10, n_columns=5)
 	
